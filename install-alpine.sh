@@ -40,4 +40,16 @@ sudo rm -rf /launch.sh
 
 sudo rm -rf /startalpine
 
+echo Writing resolv.conf
+
+sudo cp /etc/resolv.conf /alpine-fs/etc
+
+echo Creating mount points
+
+sudo mkdir /alpine-fs/dev
+
+sudo mkdir /alpine-fs/proc
+
+sudo mkdir /alpine-fs/sys
+
 echo Finished. Start Alpine with the startalpine command.
