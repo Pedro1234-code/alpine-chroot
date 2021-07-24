@@ -18,7 +18,7 @@ sudo dnf install wget git
 
 sudo apk add git wget
 
-archurl=$uname -m
+archurl=$(uname -m)
 
 sudo wget http://dl-cdn.alpinelinux.org/alpine/v3.7/releases/$arch_url/alpine-minirootfs-3.7.0-$archurl.tar.gz
 
