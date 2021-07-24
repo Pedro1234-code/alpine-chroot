@@ -20,7 +20,7 @@ sudo apk add git wget
 
 arch_url=$uname -m
 
-sudo wget https://github.com/termux/proot-distro/releases/download/v1.2-alpine-rootfs/alpine-minirootfs-3.13.1-$arch_url.tar.gz
+sudo wget http://dl-cdn.alpinelinux.org/alpine/v3.7/releases/$arch_url/alpine-minirootfs-3.7.0-$arch_url.tar.gz
 
 sudo tar -xzf alpine-minirootfs-3.13.1-$arch_url.tar.gz
 
