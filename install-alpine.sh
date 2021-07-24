@@ -22,9 +22,9 @@ archurl=$(uname -m)
 
 sudo wget http://dl-cdn.alpinelinux.org/alpine/v3.7/releases/$archurl/alpine-minirootfs-3.7.0-$archurl.tar.gz
 
-sudo tar -xzf alpine-minirootfs-3.13.1-$archurl.tar.gz
+sudo tar -xzf alpine-minirootfs-3.7.0-$archurl.tar.gz
 
-sudo rm -rf alpine-minirootfs-3.13.1-$archurl.tar.gz
+sudo rm -rf alpine-minirootfs-3.7.0-$archurl.tar.gz
 
 cd /
 
