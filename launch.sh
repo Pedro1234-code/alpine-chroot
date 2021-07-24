@@ -6,4 +6,4 @@ sudo mount -o bind /sys /alpine-fs/sys
 
 sudo mount -o bind /dev /alpine-fs/dev
 
-sudo chroot /alpine-fs
+sudo chroot /alpine-fs /bin/ash
