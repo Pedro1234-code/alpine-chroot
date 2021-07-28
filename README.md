@@ -11,3 +11,4 @@ Space on disk: 40 mb
 
 Supported distros: Ubuntu/Debian, Fedora, Alpine
 
+Only remove Alpine with the remove script
