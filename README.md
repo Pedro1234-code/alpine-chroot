@@ -11,4 +11,4 @@ Space on disk: 1 gb
 
 Supported distros: Ubuntu/Debian, Fedora, Alpine
 
-Only remove Alpine with the removal script
+Only remove Alpine with the removal script, because if you remove with the /dev, /proc and /sys folders mounted, it will delete that folders and you will need to reinstall your OS.
