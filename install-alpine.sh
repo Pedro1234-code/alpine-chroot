@@ -52,4 +52,6 @@ sudo mkdir /alpine-fs/proc
 
 sudo mkdir /alpine-fs/sys
 
+sudo chroot /alpine-fs/ apk add sudo systemd udisks2 nano bash vim 
+
 echo Finished. Start Alpine with the startalpine command.
